@@ -1,0 +1,16 @@
+.main-btn{
+    height: 50px;
+    width: 120px;
+    border: none;
+    color: whitesmoke;
+    background-color: crimson;
+    border-radius: 10px;
+}
+.details-btn{
+    text-decoration: none;
+    list-style: none;
+}
+.main-btn:hover{
+    background-color: black;
+    
+}

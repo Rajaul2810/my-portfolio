@@ -23,7 +23,7 @@ const About = () => {
                               
                             />
                         </span></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sit excepturi aspernatur culpa quam est, minima necessitatibus ipsum. Assumenda tenetur culpa deserunt nobis suscipit blanditiis expedita, fugit officia laboriosam molestiae ipsam nisi quasi reprehenderit. Illo temporibus nostrum dolores eos. Itaque labore iure harum magnam nobis facere odio vero eligendi optio?</p>
+                        <p>I'm a self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
                         <Link className="details-btn" to="/resume"><button className="main-btn">Details Me</button></Link>
                     </div>
                 </div>

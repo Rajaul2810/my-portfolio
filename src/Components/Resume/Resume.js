@@ -17,6 +17,26 @@ const Resume = () => {
            <div className="text-center"> <a  className="details-btn" href={cv} target="_blank" rel="noopener noreferrer" download="Rajaul's-Resume"><button className="main-btn"><FontAwesomeIcon icon={faDownload} /> Resume</button></a></div>
             <div className="d-flex justify-content-center">
                 <div className="row w-75 mt-5">
+
+                    <div className="col-md-6 mt-3" style={{ boxShadow: '2px 2px 10px 5px black' }}>
+                        <h4 className="text-center pt-3" style={{ color: 'crimson' }}>Personal Info</h4><hr />
+                        <div className="mt-2 ps-2">
+                            <h5><span style={{ color: 'crimson' }}>Name:</span> Rajaul Karim </h5>
+                            <p><span style={{ color: 'crimson' }}>Date of Birth:</span> 28 Oct 2000 </p>
+                            <p><span style={{ color: 'crimson' }}>Nationality:</span> Bangladesh</p>
+                        </div>
+                       
+                    </div>
+                     <div className="col-md-6 mt-3" style={{ boxShadow: '2px 2px 10px 5px black' }}>
+                        <h4 className="text-center pt-3" style={{ color: 'crimson' }}>Adress</h4><hr />
+                        <div className="mt-2 ps-2">
+                            <p><span style={{ color: 'crimson' }}>Adress:</span> Ishwargonj, Mymensingh </p>
+                            <p><span style={{ color: 'crimson' }}>Email:</span> rajaulkarim2820@gmail.com </p>
+                            <p><span style={{ color: 'crimson' }}>Phone:</span> +888 01776030787</p>
+                        </div>
+                       
+                    </div>
+
                     <div className="col-md-6 mt-3" style={{ boxShadow: '2px 2px 10px 5px black' }}>
                         <h4 className="text-center pt-3" style={{ color: 'crimson' }}>Education</h4><hr />
                         <div>
@@ -30,6 +50,9 @@ const Resume = () => {
                             <p>Higher secondary</p>
                         </div>
                     </div>
+
+                    
+
                     <div className="col-md-6 mt-3" style={{ boxShadow: '2px 2px 10px 5px black' }}>
                         <h4 className="text-center pt-3" style={{ color: 'crimson' }}>Experience</h4><hr />
                         <div className="mt-2 ps-2">

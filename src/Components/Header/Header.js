@@ -23,12 +23,12 @@ const Header = () => {
                               
                             />
                             <div className="d-flex mt-3" >
-                               <h3 className="ms-4"><a  href="https://github.com/Rajaul2810" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></h3>
-                               <h3 className="ms-4"><a href="https://www.linkedin.com/in/rejaul-hira-652691203/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></h3>
-                               <h3 className="ms-4"><a href="https://www.facebook.com/Hira2810/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></h3>
+                               <h3 className="ms-4 icon"><a style={{color:'crimson'}}  href="https://github.com/Rajaul2810" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></h3>
+                               <h3 className="ms-4 icon"><a style={{color:'crimson'}} href="https://www.linkedin.com/in/rejaul-hira-652691203/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></h3>
+                               <h3 className="ms-4 icon"><a style={{color:'crimson'}} href="https://www.facebook.com/Hira2810/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></h3>
                             </div>
                         </span></h5>
-                           <a className="details-btn" href={cv} target="_blank" download="Rajaul's-Resume"><button className="main-btn">Download CV</button></a>
+                           <a className="details-btn" href={cv} target="_blank" rel="noopener noreferrer" download="Rajaul's-Resume"><button className="main-btn">Download CV</button></a>
                      </div>
                 
                     <div className="col-md-6 mt-5">

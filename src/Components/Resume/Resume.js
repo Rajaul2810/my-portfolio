@@ -6,11 +6,15 @@ import Skills from '../Skills/Skills';
 // import TimelineConnector from '@material-ui/lab/TimelineConnector';
 // import TimelineContent from '@material-ui/lab/TimelineContent';
 // import TimelineDot from '@material-ui/lab/TimelineDot';
+import cv from "../../cv/cv.pdf";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Resume = () => {
     return (
         <section>
             <h2 className="text-center mt-5"><span style={{ color: 'crimson' }}>My</span> Resume</h2>
+           <div className="text-center"> <a  className="details-btn" href={cv} target="_blank" rel="noopener noreferrer" download="Rajaul's-Resume"><button className="main-btn"><FontAwesomeIcon icon={faDownload} /> Resume</button></a></div>
             <div className="d-flex justify-content-center">
                 <div className="row w-75 mt-5">
                     <div className="col-md-6 mt-3" style={{ boxShadow: '2px 2px 10px 5px black' }}>

@@ -5,6 +5,7 @@ import cv from "../../cv/cv.pdf";
 import Typical from 'react-typical'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
 
@@ -28,7 +29,7 @@ const Header = () => {
                                <h3 className="ms-4 icon"><a style={{color:'crimson'}} href="https://www.facebook.com/Hira2810/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></h3>
                             </div>
                         </span></h5>
-                           <a className="details-btn" href={cv} target="_blank" rel="noopener noreferrer" download="Rajaul's-Resume"><button className="main-btn">Download CV</button></a>
+                           <a className="details-btn" href={cv} target="_blank" rel="noopener noreferrer" download="Rajaul's-Resume"><button className="main-btn"><FontAwesomeIcon icon={faDownload} /> Download CV</button></a>
                      </div>
                 
                     <div className="col-md-6 mt-5">

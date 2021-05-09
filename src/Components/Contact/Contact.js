@@ -35,10 +35,10 @@ const Contact = () => {
 
     return (
         <section>
-            <h2 className="text-center">Contact <span style={{ color: 'crimson' }}>Me.</span></h2>
+            <h2 className="text-center">Contact <span style={{ color: 'crimson' }}>Me</span></h2>
             <div className="d-flex justify-content-center mt-5">
                 <div className="w-75 pt-3 pe-3 ps-3 pb-3" style={{ boxShadow: '2px 2px 10px 5px black' }}>
-                    <h4 className="text-center">Contact <span style={{ color: 'crimson' }}>From.</span></h4>
+                    <h4 className="text-center">Contact <span style={{ color: 'crimson' }}>From</span></h4>
                     {/* <Lottie options={defaultOptions}
                       
                         /> */}

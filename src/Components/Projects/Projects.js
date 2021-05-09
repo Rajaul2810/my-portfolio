@@ -9,8 +9,8 @@ import { faEye } from '@fortawesome/free-regular-svg-icons';
 
 const Projects = () => {
     return (
-        <section>
-            <h2 className="text-center mt-5">Personal <span style={{ color: 'crimson' }}>Projects.</span></h2>
+        <section className="mb-5">
+            <h2 className="text-center mt-5">Personal <span style={{ color: 'crimson' }}>Projects</span></h2>
             <div className="d-flex justify-content-center align-items-center">
                 <div className="row w-75 mt-5" >
                     <div className="col-md-4 mb-3">

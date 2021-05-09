@@ -41,7 +41,7 @@ const Resume = () => {
                         <h4 className="text-center pt-3" style={{ color: 'crimson' }}>Education</h4><hr />
                         <div>
                             <p style={{ color: 'crimson' }}>2019-Present</p>
-                            <h5>Jagganth University, Dhaka</h5>
+                            <h5>Jagannath University, Dhaka</h5>
                             <p>B.Sc. in CSE</p>
                         </div>
                         <div className="mt-5">

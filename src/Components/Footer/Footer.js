@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="row ms-3 me-3 ">
                
                 <div className="col-md-6 pb-2">
-                    <h4>Rajaul'<span  style={{color:'crimson'}}>s</span> Portfo<span style={{color:'crimson'}}>lio</span></h4>
+                    <h4>Rajaul'<span  style={{color:'crimson'}}>s</span> Portfo<span style={{color:'crimson'}}>lio</span></h4><hr />
                     <p>Dhaka, Bangladesh</p>
 {/*                    
                    <h6><Link style={{textDecoration:'none', listStyle:'none',color:'whitesmoke'}} to="/home">Home</Link></h6>
